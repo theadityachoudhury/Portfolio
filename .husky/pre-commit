@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+echo "Running Pre Commit tasks!!📝"
+npm run build || (
+    echo "Build Failed🚫"
+    exit 1)
+
+echo "Build Completed Successfully!!🎉💯"
+echo "\n"
+echo "\n"
+echo "\n"
+echo "\n"
+echo "Running Prettier tasks!!🔍"
+
+npm run prettify || (
+    echo "Prettier Failed🚫"
+    exit 1)
+
+echo "Prettier Completed Successfully!!🎉💯"
