@@ -6,10 +6,10 @@ npm run build || (
     exit 1)
 
 echo "Build Completed Successfully!!🎉💯"
-echo "\n"
-echo "\n"
-echo "\n"
-echo "\n"
+echo ""
+echo ""
+echo ""
+echo ""
 echo "Running Prettier tasks!!🔍"
 
 npm run prettify || (
