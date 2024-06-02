@@ -58,5 +58,25 @@ export const data: {
             githubLink: "https://github.com/theadityachoudhury/price-tracker",
             hostedLink: "https://pricewise.adityachoudhury.com",
             projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/pricewise.png"
+        },
+        {
+            projectName: "File-Mailer - StudySync",
+            projectType: "full-stack",
+            techStack: "React, ExpressJS, MongoDB",
+            year: 2024,
+            description: "A simple project to send files via email.",
+            githubLink: "https://github.com/theadityachoudhury/File-Mailer",
+            hostedLink: "https://mailer.adityachoudhury.com",
+            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/fileMailer.png"
+        },
+        {
+            projectName: "MotooMagicians",
+            projectType: "backend",
+            techStack: "ExpressJS, MongoDB",
+            year: 2023,
+            description: "A simple backend project for a bike servicing system.",
+            githubLink: "https://github.com/theadityachoudhury/four-gear",
+            hostedLink: "https://github.com/theadityachoudhury/four-gear",
+            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/fourgear.png"
         }
     ];
