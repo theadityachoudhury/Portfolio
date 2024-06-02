@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.my-masonry-grid {
+    display: flex;
+    margin-left: -5px; /* Adjust the gutter size offset */
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 5px; /* Adjust the gutter size */
+    background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+    margin-bottom: 5px; /* Adjust the space between items */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+  
