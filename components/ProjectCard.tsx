@@ -10,7 +10,8 @@ export default function ProjectCard({ project }: {
         techStack: string,
         year: number,
         description: string,
-        githubLink: string
+        githubLink: string,
+        hostedLink: string
     }
 }) {
     return (
@@ -19,7 +20,7 @@ export default function ProjectCard({ project }: {
                 <div>
                     <Image src={project.projectImage} alt="" height={500} width={500} />
                 </div>
-                <Link href="" target="_blank" className="flex">
+                <Link href={project.hostedLink} target="_blank" className="flex">
                     <p className="text-3xl text-white">{project.projectName}</p> {/* project name */}
                     <div className="p-2">
                         <SquareArrowOutUpRight size={20} />

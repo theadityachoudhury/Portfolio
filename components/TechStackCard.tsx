@@ -21,7 +21,7 @@ export default function TechStackCard(
                             <Image src={data.icon} alt="C" width={50} height={50} /> {/* Icon */}
                         </div>
                         <div>
-                            <p className="text-2xl p-2">{data.name}</p> {/* Name */}
+                            <p className="text-2xl p-3">{data.name}</p> {/* Name */}
                         </div>
                     </div>
                 ))}
