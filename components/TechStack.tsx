@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SectionName from "./SectionName";
 import TechStackCard from "./TechStackCard";
 

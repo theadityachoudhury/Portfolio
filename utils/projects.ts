@@ -9,6 +9,16 @@ export const data: {
     hostedLink: string
 }[] = [
         {
+            projectImage: "/projects/CodeSync.png",
+            projectName: "CodeSync",
+            projectType: "full-stack",
+            techStack: "React, ExpressJS, MongoDB, AWS, WebSockets",
+            year: 2024,
+            description: "CodeSync is a real-time collaborative code editor with chat, file management, and secure authentication. Organize projects in unique rooms for seamless teamwork.",
+            githubLink: "https://github.com/theadityachoudhury/realtime-code-editor",
+            hostedLink: "https://editor.adityachoudhury.com"
+        },
+        {
             projectImage: "https://raw.githubusercontent.com/theadityachoudhury/Event-Manager-Frontend/main/public/assets/ss/01.png",
             projectName: "Evently",
             projectType: "full-stack",
@@ -36,7 +46,7 @@ export const data: {
             description: "A simple starter pack for authentication using TypeScript.",
             githubLink: "https://github.com/theadityachoudhury/ts-node-starter-project",
             hostedLink: "https://github.com/theadityachoudhury/ts-node-starter-project",
-            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/ts-node-starter.jpg"
+            projectImage: "/projects/ts-node-starter.jpg"
         },
         {
             projectName: "PG Backend",
@@ -46,7 +56,7 @@ export const data: {
             description: "A simple backend project for PG management system.",
             githubLink: "https://github.com/theadityachoudhury/PG",
             hostedLink: "https://pgbackend.adityachoudhury.com/",
-            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/pg-backend.jpeg"
+            projectImage: "/projects/pg-backend.jpeg"
 
         },
         {
@@ -57,7 +67,7 @@ export const data: {
             description: "Track the price of your favourite products and get notified when the price drops.",
             githubLink: "https://github.com/theadityachoudhury/price-tracker",
             hostedLink: "https://pricewise.adityachoudhury.com",
-            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/pricewise.png"
+            projectImage: "/projects/pricewise.png"
         },
         {
             projectName: "File-Mailer - StudySync",
@@ -67,7 +77,7 @@ export const data: {
             description: "A simple project to send files via email.",
             githubLink: "https://github.com/theadityachoudhury/File-Mailer",
             hostedLink: "https://mailer.adityachoudhury.com",
-            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/fileMailer.png"
+            projectImage: "/projects/fileMailer.png"
         },
         {
             projectName: "MotooMagicians",
@@ -77,6 +87,6 @@ export const data: {
             description: "A simple backend project for a bike servicing system.",
             githubLink: "https://github.com/theadityachoudhury/four-gear",
             hostedLink: "https://github.com/theadityachoudhury/four-gear",
-            projectImage:"https://raw.githubusercontent.com/theadityachoudhury/images/main/fourgear.png"
+            projectImage: "/projects/fourgear.png"
         }
     ];
