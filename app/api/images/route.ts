@@ -1,10 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import path from "path";
-import fs from 'fs';
-import sizeOf from 'image-size';
-
-
-
 
 export async function GET(req: NextRequest) {
   let images: { src: string, width: number, height: number }[] = [
